@@ -14,6 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="font-inter max-w-7xl mx-auto">
+    <!-- navbar section -->
     <header>
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -44,7 +45,9 @@
               <li><a>SEARCH</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-3xl font-extrabold">Go<span class="text-green-500">Journey</span></a>
+          <a class="btn btn-ghost text-3xl font-extrabold"
+            >Go<span class="text-green-500">Journey</span></a
+          >
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -55,11 +58,99 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn border-green-500 bg-green-100 font-bold">Bus <img src="images/bus-icon.png" alt=""></a>
+          <a class="btn  border-green-500 bg-green-100 font-bold text-green-600"
+            >Bus <img src="images/bus-icon.png" alt=""
+          /></a>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- banner section -->
+      <section class="bg-[url(images/banner.png)] bg-no-repeat">
+        <div
+          class="flex flex-col justify-center items-center space-y-8 h-[55vh]"
+        >
+          <h1 class="text-6xl font-extrabold text-white">
+            End-to-End Travel With <br /><span class="text-green-500"
+              >Go Journey</span
+            >
+          </h1>
+          <p class="text-white">
+            Yes, you can run unit tests and view the results directly within the
+            app. <br />The integrated testing features allow for a streamlined .
+          </p>
+          <button class="btn bg-green-500 border-0 text-xl">Buy Tickets</button>
+        </div>
+        <div class="flex justify-center items-center gap-10">
+          <div
+            class="flex items-center justify-center gap-5 p-4 bg-white w-[280px]"
+          >
+            <div>
+              <img src="images/people.png" alt="" />
+            </div>
+            <div>
+              <h1>500+</h1>
+              <p>Registured User</p>
+            </div>
+          </div>
+          <div class="flex items-center justify-center bg-white w-[280px]">
+            <div>
+              <img src="images/people.png" alt="" />
+            </div>
+            <div>
+              <h1>500+</h1>
+              <p>Registured User</p>
+            </div>
+          </div>
+          <div class="flex bg-white w-[300px]">
+            <div>
+              <img src="images/people.png" alt="" />
+            </div>
+            <div>
+              <h1>500+</h1>
+              <p>Registured User</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- best offer section -->
+      <section class="mt-28">
+        <div class="flex justify-center items-center mb-20">
+          <h1 class="text-5xl font-extrabold font-raleway">Best Offers for you</h1>
+        </div>
+      <div class="flex justify-center gap-5">
+          <div class="bg-[#FFBF0F] flex justify-center w-[570px] items-center rounded-xl">
+          <div>
+            <h1 class="text-5xl">15% OFF</h1>
+            <p>On Your Next Purches</p>
+            <p>Use By December 2024</p>
+          </div>
+          <div class="">
+            <img src="images/cupon-devider.png" alt="">
+          </div>
+          <div>
+            <h1 class="text-3xl">NEW15</h1>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+        <div class="bg-[#F78C9C] flex w-[570px] justify-center items-center rounded-xl">
+          <div>
+            <h1 class="text-5xl">20% OFF</h1>
+            <p>On Your Next Purches</p>
+            <p>Use By December 2024</p>
+          </div>
+          <div>
+            <img src="images/cupon-devider.png" alt="">
+          </div>
+          <div>
+            <h1 class="text-3xl">Couple20</h1>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+      </div>
+     <button class="btn btn-outline btn-success">See All Offers</button>
+      </section>
+    </main>
     <footer></footer>
 
     <script src="js/script.js"></script>
